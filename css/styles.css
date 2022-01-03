@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --sunglow: #ffce44ff;
+    --rosso-corsa: #de0404ff;
+    --international-orange-engineering: #b80f0fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    font-family: 'Bitter', serif;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+}
+  
+h1, h2, h3 {
+    font-weight: bold;
+    padding: .2em;
+    color: var(--rosso-corsa)
+}
+  
+h1 {
+    padding: .2em;
+}
+  
+h2 {
+    font-size: 1.8em;
+}
+  
+h3 {
+    font-size: 1.5em;
+}
+
+ul > li, ol > li {
+    padding: .3em;
+}
+  
+ul > li {
+    list-style: none;
+}
+  
+.recipe-container {
+    margin: auto;
+    padding-bottom: 1em;
+    width: 100%;
+    max-width: 800px;
+    background-color: var(--sunglow);
+    text-align: center;
+}
+  
+.logo {
+    font-size: 5em;
+    text-align: center;
+    display: block;
+}
+  
+.card-container {
+    margin: 2em;
+    padding: .8em;
+    box-shadow: .2em .2em 0em var(--international-orange-engineering);
+    border: 2px solid var(--international-orange-engineering);
+    border-radius: .5em;
+}
+  
+.card-container > p {
+    text-align: left;
+}
+  
+.card-container > ul, ol {
+    text-align: left;
+    padding: 0 2em;
+}
+  
+.card-container > ul li {
+    list-style: disc;
+}
+  
+.card-container > h2,h3 {
+    font-weight: bold;
+    color: var(--international-orange-engineering);
+}
+  
+.link {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--rosso-corsa);
+}
+  
+.link:hover {
+    text-decoration: underline;
+}
